@@ -1,0 +1,111 @@
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.text-muted {
+    color: #d2d3d5;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(16, 10, 10, 0.7);
+    padding: 10px 20px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar-container {
+    background-color: rgba(16, 10, 10, 0.7);
+    padding: 5px 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: white;
+}
+
+.home-container{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.choix{
+    text-align: center;
+    color: #493936;
+    margin-bottom: 50px;
+}
+
+
+.remises-dropdown {
+    margin-right: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+
+.drop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.drop-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn-pizza:hover {
+    opacity: 0.8;
+    transform: translateY(-2px);
+}
+
+
+.btn-pizza {
+    margin-bottom: 15px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    border: white;
+    color: white;
+    transition: transform 0.2s;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+
+.input-prix{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+}
+
